@@ -533,6 +533,7 @@ main {
 
 .about-text a,
 .timeline-text a {
+  display: inline;
   color: var(--orange-yellow-crayola);
   text-decoration: none;
   border-bottom: 1px solid hsla(45, 100%, 72%, 0.45);
