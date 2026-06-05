@@ -331,6 +331,11 @@ main {
   gap: 15px;
 }
 
+.info-content {
+  min-width: 0;
+  max-width: 100%;
+}
+
 .avatar-box {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
@@ -349,9 +354,13 @@ main {
   background: var(--onyx);
   font-size: var(--fs-8);
   font-weight: var(--fw-300);
-  width: max-content;
+  line-height: 1.5;
+  width: fit-content;
+  max-width: 100%;
   padding: 3px 12px;
   border-radius: 8px;
+  white-space: normal;
+  overflow-wrap: anywhere;
 }
 
 .info_more-btn {
@@ -1842,7 +1851,10 @@ textarea.form-input::-webkit-resizer { display: none; }
     text-align: center;
   }
 
-  .info-content .title { margin: auto; }
+  .info-content .title {
+    margin: auto;
+    text-align: center;
+  }
 
   .info_more-btn { display: none; }
 
