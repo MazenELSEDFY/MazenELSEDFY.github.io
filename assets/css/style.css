@@ -873,6 +873,69 @@ main {
   line-height: 1.6;
 }
 
+.resume-media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.resume-media-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 82px;
+  padding: 10px;
+  background: var(--border-gradient-onyx);
+  border-radius: 12px;
+  box-shadow: var(--shadow-2);
+  z-index: 1;
+  transition: var(--transition-1);
+}
+
+.resume-media-card::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  background: var(--eerie-black-1);
+  border-radius: inherit;
+  z-index: -1;
+}
+
+.resume-media-card:hover,
+.resume-media-card:focus {
+  transform: translateY(-2px);
+}
+
+.resume-media-card img,
+.resume-media-icon {
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+  background: var(--onyx);
+}
+
+.resume-media-card img {
+  object-fit: cover;
+  border: 1px solid var(--jet);
+}
+
+.resume-media-icon {
+  display: grid;
+  place-items: center;
+  color: var(--orange-yellow-crayola);
+  font-size: 26px;
+}
+
+.resume-media-card span {
+  color: var(--white-2);
+  font-size: var(--fs-7);
+  font-weight: var(--fw-400);
+  line-height: 1.4;
+}
+
 
 /**
  * skills 
