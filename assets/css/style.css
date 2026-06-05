@@ -531,6 +531,22 @@ main {
 
 .about-text p { margin-bottom: 15px; }
 
+.about-text a,
+.timeline-text a {
+  color: var(--orange-yellow-crayola);
+  text-decoration: none;
+  border-bottom: 1px solid hsla(45, 100%, 72%, 0.45);
+  transition: var(--transition-1);
+}
+
+.about-text a:hover,
+.about-text a:focus,
+.timeline-text a:hover,
+.timeline-text a:focus {
+  color: var(--vegas-gold);
+  border-bottom-color: var(--vegas-gold);
+}
+
 
 
 /**
@@ -1309,6 +1325,49 @@ textarea.form-input::-webkit-resizer { display: none; }
 .form-btn:disabled:hover { background: var(--border-gradient-onyx); }
 
 .form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
+
+.direct-email {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 25px;
+  padding: 18px;
+  background: var(--border-gradient-onyx);
+  border-radius: 16px;
+  box-shadow: var(--shadow-2);
+  z-index: 1;
+}
+
+.direct-email::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  background: var(--eerie-black-1);
+  border-radius: inherit;
+  z-index: -1;
+}
+
+.direct-email > div:last-child { min-width: 0; }
+
+.direct-email-label {
+  color: var(--light-gray-70);
+  font-size: var(--fs-8);
+  font-weight: var(--fw-500);
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.direct-email-link {
+  color: var(--white-2);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  overflow-wrap: anywhere;
+  transition: var(--transition-1);
+}
+
+.direct-email-link:hover,
+.direct-email-link:focus { color: var(--orange-yellow-crayola); }
 
 
 
