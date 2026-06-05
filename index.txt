@@ -2,90 +2,113 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
+alt = Mazen El Sedfy
+
+Mazen El Sedfy
+
+MMath Student | Teaching Assistant | Graduate Researcher
 
 Show Contacts
 
 Email
-richard@example.com
+
+[melsedfy@uwaterloo.ca](mailto:melsedfy@uwaterloo.ca)
 
 Phone
-+1 (213) 352-2795
+
+(Add your preferred phone number)
 
 Birthday
-June 23, 1982
+
+(Optional)
 
 Location
-Sacramento, California, USA
+
+Waterloo, Ontario, Canada
 
 # navbar
 
 About
+
 Resume
+
 Portfolio
-Blog
+
+Research
+
 Contact
 
 # about
 
 About me
 
-I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
+I am a Master of Mathematics (MMath) student in Computer Science at the University of Waterloo and a member of the Data Intelligence Lab under the supervision of Professor Renée J. Miller. I also serve as a Teaching Assistant in the David R. Cheriton School of Computer Science.
 
-My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
+My research focuses on data discovery, table version identification, data lakes, semantic data integration, and large language models for data management. I am particularly interested in understanding the lineage and evolution of structured data and developing systems that help users discover, relate, and manage large collections of tables.
 
+Prior to joining the University of Waterloo, I completed my Bachelor of Science in Computer Engineering at the Arab Academy for Science, Technology and Maritime Transport (AASTMT), graduating with distinction. Throughout my academic and professional experiences, I have worked on machine learning, software engineering, database systems, cloud infrastructure, and human-computer interaction projects.
+
+My goal is to contribute to next-generation intelligent data management systems that combine database principles with modern AI technologies.
 
 ## service
 
-What i'm doing
+What I'm Doing
 
-alt = design icon
-Web design
-The most modern and high-quality design made at a professional level.
+alt = research icon
 
-alt = Web development icon
-Web development
-High-quality development of sites at the professional level.
+Research
 
-alt = mobile app icon
-Mobile apps
-Professional development of applications for iOS and Android.
+Conducting research in data discovery, table version identification, and data lake management.
 
-alt = camera icon
-Photography
-I make high-quality photos of any category at a professional level.
+alt = teaching icon
 
+Teaching
+
+Supporting undergraduate computer science courses as a Teaching Assistant through tutorials, office hours, and grading.
+
+alt = software development icon
+
+Software Engineering
+
+Developing full-stack applications, data-intensive systems, and machine learning solutions.
+
+alt = artificial intelligence icon
+
+Data Science & AI
+
+Building machine learning and large language model applications for real-world data management challenges.
 
 ## testimonials
 
 Testimonials
 
-alt = Daniel lewis
-Daniel lewis
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+Research Collaboration
 
-alt = Jessica miller
-Jessica miller
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+Collaborated on data discovery and semantic data processing projects involving large-scale datasets and modern AI systems.
 
-alt = Emily evans
-Emily evans
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+Teaching Support
 
-alt = Henry william
-Henry william
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+Provided academic support and mentoring to undergraduate students through teaching assistantships and course instruction.
 
+Systems Engineering
+
+Contributed to software, infrastructure, and data engineering projects across academic and industry environments.
+
+Continuous Learning
+
+Passionate about research, innovation, and bridging the gap between databases and artificial intelligence.
 
 ## clients
 
-Clients
+Affiliations
 
-alt = client logo
+University of Waterloo
 
+Data Intelligence Lab
 
+David R. Cheriton School of Computer Science
+
+Arab Academy for Science, Technology and Maritime Transport
 
 # resume
 
@@ -93,148 +116,204 @@ Resume
 
 Education
 
-University school of the arts
-2007 — 2008
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+University of Waterloo
 
-New york academy of art
-2006 — 2007
-Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis..
+2026 — Present
 
-High school of art and design
-2002 — 2004
-Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur magni dolores eos.
+Master of Mathematics (MMath) in Computer Science.
+
+Research focus: Data discovery, table version identification, data lakes, semantic data integration, and AI for data management.
+
+Supervisor: Professor Renée J. Miller.
+
+Arab Academy for Science, Technology and Maritime Transport (AASTMT)
+
+2020 — 2025
+
+Bachelor of Science in Computer Engineering.
+
+Graduated with distinction and completed multiple research and engineering projects in machine learning, software development, and systems engineering.
 
 Experience
 
-Creative director
-2015 — Present
-Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.
+Graduate Researcher
 
-Art director
-2013 — 2015
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+2026 — Present
 
-Web designer
-2010 — 2013
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+Conducting research in data discovery and table version identification within large data lakes. Investigating lineage analysis, semantic relationships between tables, and intelligent data management techniques.
 
-My skills
+Teaching Assistant
 
-Web design
-80%
-Graphic design
-70%
-Branding
+2026 — Present
+
+Supporting undergraduate Computer Science courses at the University of Waterloo through marking, student support, office hours, and instructional activities.
+
+Visiting Research Scholar
+
+2025 — 2026
+
+Conducted research on LLM-powered semantic data processing systems, evaluating frameworks such as DocETL, Lotus, Palimpzest, and ELEET. Performed benchmarking and comparative analysis of performance, latency, and cost across complex data processing workloads.
+
+Data Center Infrastructure Engineer
+
+National Bank of Egypt
+
+2024
+
+Worked on infrastructure operations, monitoring, and maintenance within enterprise-scale banking environments. Assisted in maintaining high availability systems and operational reliability.
+
+Frontend Developer Intern
+
+All For One Egypt
+
+2024
+
+Developed modern web interfaces and reusable frontend components using Angular and JavaScript while improving usability and performance.
+
+Embedded Systems Engineer Intern
+
+Wakalex for Industry & Trade
+
+2024
+
+Designed and optimized embedded solutions using Arduino and sensor-based automation systems for industrial applications.
+
+My Skills
+
+Database Systems
+
+95%
+
+Machine Learning & Artificial Intelligence
+
 90%
-WordPress
-50%
 
+Python
 
+95%
+
+Java & C++
+
+90%
+
+Data Engineering
+
+90%
+
+Research & Scientific Writing
+
+95%
+
+Full-Stack Development
+
+85%
+
+Cloud & Infrastructure
+
+80%
 
 # portfolio
 
 Portfolio
 
-All
-Web design
-Applications
-Web development
+MAZE: Find Your Way To A Proper Table Version
 
-Select category
-All
-Web design
-Applications
-Web development
+Research Project
 
-alt = finance
-Finance
-Web development
+A research system for discovering table versions and lineage relationships within large data lakes.
 
-alt = orizon
-Orizon
-Web development
+LLM-Powered Semantic Data Processing Evaluation
 
-alt = fundo
-Fundo
-Web design
+Research Project
 
-alt = brawlhalla
-Brawlhalla
-Applications
+Comparative evaluation of DocETL, Lotus, Palimpzest, and ELEET for semantic data processing tasks involving structured and semi-structured data.
 
-alt = dsm.
-DSM.
-Web design
+Brain-Computer Interface for Assistive Communication
 
-alt = metaspark
-MetaSpark
-Web design
+Machine Learning
 
-alt = summary
-Summary
-Web development
+Designed a P300-based EEG brain-computer interface for users with severe motor impairments, enabling assistive communication through neural signal processing.
 
-alt = task manager
-Task Manager
-Applications
+Intelligent Rescue Robot
 
-alt = arrival
-Arrival
-Web development
+Embedded Systems
 
+Developed a sound-localization rescue robot capable of detecting and navigating toward distress signals.
 
+COVID-19 Smart Monitoring System
 
-# blog
+Internet of Things (IoT)
 
-Blog
+Built an IoT-based monitoring platform using Raspberry Pi, sensors, and real-time dashboards for environmental and health monitoring.
 
-alt = Design conferences in 2022
-Design
-Fab 23, 2022
-Design conferences in 2022
-Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+Personal Portfolio Website
 
-alt = Best fonts every designer
-Design
-Fab 23, 2022
-Best fonts every designer
-Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+Web Development
 
-alt = Design digest #80
-Design
-Fab 23, 2022
-Design digest #80
-Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+Designed and developed a responsive portfolio showcasing research, projects, and professional experience.
 
-alt = UI interactions of the week
-Design
-Fab 23, 2022
-UI interactions of the week
-Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+# research
 
-alt = The forgotten art of spacing
-Design
-Fab 23, 2022
-The Forgotten Art Of Spacing
-Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Research Interests
 
-alt = Design digest #79
-Design
-Fab 23, 2022
-Design Digest #79
-Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+Data Discovery
 
+Table Version Identification
 
+Data Lakes
+
+Data Integration
+
+Database Systems
+
+Machine Learning for Data Management
+
+Large Language Models for Structured Data
+
+Data Lineage and Provenance
+
+Knowledge Discovery
+
+Semantic Data Processing
 
 # contact
 
 Contact
 
+Email
+
+[melsedfy@uwaterloo.ca](mailto:melsedfy@uwaterloo.ca)
+
+Institution
+
+University of Waterloo
+
+Lab
+
+Data Intelligence Lab
+
+Supervisor
+
+Professor Renée J. Miller
+
+GitHub
+
+https://github.com/MazenELSEDFY
+
+LinkedIn
+
+https://www.linkedin.com/in/mazen-el-sedfy
+
+Portfolio
+
+https://mazen-portfolio-vert.vercel.app
+
 Contact Form
 
-Full name
-Email address
+Full Name
+
+Email Address
+
 Your Message
 
 Send Message
