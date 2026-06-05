@@ -5,21 +5,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vCard - Personal Portfolio</title>
+  <title>Mazen El Sedfy - Personal Portfolio</title>
 
-  <!--
-    - favicon
-  -->
   <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!--
-    - google font link
-  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -27,33 +17,23 @@
 
 <body>
 
-  <!--
-    - #MAIN
-  -->
-
   <main>
-
-    <!--
-      - #SIDEBAR
-    -->
 
     <aside class="sidebar" data-sidebar>
 
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+          <img src="./assets/images/my-avatar.png" alt="Mazen El Sedfy" width="80">
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Richard hanrick</h1>
-
-          <p class="title">Web developer</p>
+          <h1 class="name" title="Mazen El Sedfy">Mazen El Sedfy</h1>
+          <p class="title">MMath Student | Teaching Assistant | Graduate Researcher</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
           <span>Show Contacts</span>
-
           <ion-icon name="chevron-down"></ion-icon>
         </button>
 
@@ -66,59 +46,43 @@
         <ul class="contacts-list">
 
           <li class="contact-item">
-
             <div class="icon-box">
               <ion-icon name="mail-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
               <p class="contact-title">Email</p>
-
-              <a href="mailto:richard@example.com" class="contact-link">richard@example.com</a>
+              <a href="mailto:melsedfy@uwaterloo.ca" class="contact-link">melsedfy@uwaterloo.ca</a>
             </div>
-
           </li>
 
           <li class="contact-item">
-
             <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
+              <ion-icon name="school-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>
+              <p class="contact-title">Institution</p>
+              <p class="contact-link">University of Waterloo</p>
             </div>
-
           </li>
 
           <li class="contact-item">
-
             <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
+              <ion-icon name="flask-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="1982-06-23">June 23, 1982</time>
+              <p class="contact-title">Lab</p>
+              <p class="contact-link">Data Intelligence Lab</p>
             </div>
-
           </li>
 
           <li class="contact-item">
-
             <div class="icon-box">
               <ion-icon name="location-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
               <p class="contact-title">Location</p>
-
-              <address>Sacramento, California, USA</address>
+              <address>Waterloo, Ontario, Canada</address>
             </div>
-
           </li>
 
         </ul>
@@ -128,20 +92,20 @@
         <ul class="social-list">
 
           <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
+            <a href="https://github.com/MazenELSEDFY" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
             </a>
           </li>
 
           <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
+            <a href="https://www.linkedin.com/in/mazen-el-sedfy" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
             </a>
           </li>
 
           <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
+            <a href="https://mazen-portfolio-vert.vercel.app" class="social-link" target="_blank">
+              <ion-icon name="globe-outline"></ion-icon>
             </a>
           </li>
 
@@ -151,26 +115,13 @@
 
     </aside>
 
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
     <div class="main-content">
 
-      <!--
-        - #NAVBAR
-      -->
-
       <nav class="navbar">
-
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
+            <button class="navbar-link active" data-nav-link>About</button>
           </li>
 
           <li class="navbar-item">
@@ -182,7 +133,7 @@
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
+            <button class="navbar-link" data-nav-link>Research</button>
           </li>
 
           <li class="navbar-item">
@@ -190,18 +141,9 @@
           </li>
 
         </ul>
-
       </nav>
 
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
+      <article class="about active" data-page="about">
 
         <header>
           <h2 class="h2 article-title">About me</h2>
@@ -209,196 +151,127 @@
 
         <section class="about-text">
           <p>
-            I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
-            I enjoy
-            turning complex problems into simple, beautiful and intuitive designs.
+            I am a Master of Mathematics (MMath) student in Computer Science at the University of Waterloo and a member
+            of the Data Intelligence Lab under the supervision of Professor Renée J. Miller. I also serve as a Teaching
+            Assistant in the David R. Cheriton School of Computer Science.
           </p>
 
           <p>
-            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-            Moreover, I
-            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-            across your
-            message and identity in the most creative way. I created web design for many famous brand companies.
+            My research focuses on data discovery, table version identification, data lakes, semantic data integration,
+            and large language models for data management. I am interested in understanding the lineage and evolution of
+            structured data and developing systems that help users discover, relate, and manage large collections of tables.
+          </p>
+
+          <p>
+            Prior to joining the University of Waterloo, I completed my Bachelor of Science in Computer Engineering at
+            the Arab Academy for Science, Technology and Maritime Transport (AASTMT). My experience spans machine
+            learning, software engineering, database systems, cloud infrastructure, embedded systems, and human-computer interaction.
           </p>
         </section>
 
-
-        <!--
-          - service
-        -->
-
         <section class="service">
 
-          <h3 class="h3 service-title">What i'm doing</h3>
+          <h3 class="h3 service-title">What I'm Doing</h3>
 
           <ul class="service-list">
 
             <li class="service-item">
-
               <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
+                <img src="./assets/images/icon-design.svg" alt="research icon" width="40">
               </div>
-
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web design</h4>
-
+                <h4 class="h4 service-item-title">Research</h4>
                 <p class="service-item-text">
-                  The most modern and high-quality design made at a professional level.
+                  Conducting research in data discovery, table version identification, data lineage, and data lake management.
                 </p>
               </div>
-
             </li>
 
             <li class="service-item">
-
               <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                <img src="./assets/images/icon-dev.svg" alt="teaching icon" width="40">
               </div>
-
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
-
+                <h4 class="h4 service-item-title">Teaching</h4>
                 <p class="service-item-text">
-                  High-quality development of sites at the professional level.
+                  Supporting undergraduate computer science courses as a Teaching Assistant through grading, office hours, and student support.
                 </p>
               </div>
-
             </li>
 
             <li class="service-item">
-
               <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+                <img src="./assets/images/icon-app.svg" alt="software engineering icon" width="40">
               </div>
-
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Mobile apps</h4>
-
+                <h4 class="h4 service-item-title">Software Engineering</h4>
                 <p class="service-item-text">
-                  Professional development of applications for iOS and Android.
+                  Building full-stack applications, data-intensive systems, and practical tools for research and engineering workflows.
                 </p>
               </div>
-
             </li>
 
             <li class="service-item">
-
               <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+                <img src="./assets/images/icon-photo.svg" alt="ai icon" width="40">
               </div>
-
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Photography</h4>
-
+                <h4 class="h4 service-item-title">Data Science & AI</h4>
                 <p class="service-item-text">
-                  I make high-quality photos of any category at a professional level.
+                  Developing machine learning and large language model applications for structured data and intelligent data management.
                 </p>
               </div>
-
             </li>
 
           </ul>
 
         </section>
 
-
-        <!--
-          - testimonials
-        -->
-
         <section class="testimonials">
 
-          <h3 class="h3 testimonials-title">Testimonials</h3>
+          <h3 class="h3 testimonials-title">Highlights</h3>
 
           <ul class="testimonials-list has-scrollbar">
 
             <li class="testimonials-item">
               <div class="content-card" data-testimonials-item>
-
                 <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                  <img src="./assets/images/avatar-1.png" alt="Research" width="60" data-testimonials-avatar>
                 </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
-
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Graduate Research</h4>
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                    Working on table version identification, data discovery, and semantic relationships between structured datasets in large data lakes.
                   </p>
                 </div>
-
               </div>
             </li>
 
             <li class="testimonials-item">
               <div class="content-card" data-testimonials-item>
-
                 <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                  <img src="./assets/images/avatar-2.png" alt="Teaching" width="60" data-testimonials-avatar>
                 </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
-
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Teaching Assistantship</h4>
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                    Supporting computer science students at the University of Waterloo through grading, course support, and academic mentoring.
                   </p>
                 </div>
-
               </div>
             </li>
 
             <li class="testimonials-item">
               <div class="content-card" data-testimonials-item>
-
                 <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                  <img src="./assets/images/avatar-3.png" alt="AI" width="60" data-testimonials-avatar>
                 </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
-
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>LLM Data Systems</h4>
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                    Evaluated LLM-powered semantic data processing systems including DocETL, Lotus, Palimpzest, and ELEET.
                   </p>
                 </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
               </div>
             </li>
 
@@ -406,111 +279,42 @@
 
         </section>
 
-
-        <!--
-          - testimonials modal
-        -->
-
         <div class="modal-container" data-modal-container>
-
           <div class="overlay" data-overlay></div>
-
           <section class="testimonials-modal">
-
             <button class="modal-close-btn" data-modal-close-btn>
               <ion-icon name="close-outline"></ion-icon>
             </button>
-
             <div class="modal-img-wrapper">
               <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+                <img src="./assets/images/avatar-1.png" alt="Highlight" width="80" data-modal-img>
               </figure>
-
               <img src="./assets/images/icon-quote.svg" alt="quote icon">
             </div>
-
             <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
+              <h4 class="h3 modal-title" data-modal-title>Highlight</h4>
+              <time datetime="2026-01-01">2026</time>
               <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
+                <p>Academic and research highlight from Mazen El Sedfy's portfolio.</p>
               </div>
-
             </div>
-
           </section>
-
         </div>
-
-
-        <!--
-          - clients
-        -->
 
         <section class="clients">
 
-          <h3 class="h3 clients-title">Clients</h3>
+          <h3 class="h3 clients-title">Affiliations</h3>
 
           <ul class="clients-list has-scrollbar">
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
-              </a>
-            </li>
-
+            <li class="clients-item"><a href="#"><img src="./assets/images/logo-1-color.png" alt="University of Waterloo"></a></li>
+            <li class="clients-item"><a href="#"><img src="./assets/images/logo-2-color.png" alt="Data Intelligence Lab"></a></li>
+            <li class="clients-item"><a href="#"><img src="./assets/images/logo-3-color.png" alt="David R. Cheriton School of Computer Science"></a></li>
+            <li class="clients-item"><a href="#"><img src="./assets/images/logo-4-color.png" alt="AASTMT"></a></li>
           </ul>
 
         </section>
 
       </article>
-
-
-
-
-
-      <!--
-        - #RESUME
-      -->
 
       <article class="resume" data-page="resume">
 
@@ -521,54 +325,28 @@
         <section class="timeline">
 
           <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
+            <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
             <h3 class="h3">Education</h3>
           </div>
 
           <ol class="timeline-list">
 
             <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">University school of the arts</h4>
-
-              <span>2007 — 2008</span>
-
+              <h4 class="h4 timeline-item-title">University of Waterloo</h4>
+              <span>2026 — Present</span>
               <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+                Master of Mathematics (MMath) in Computer Science. Research focus: data discovery, table version identification,
+                data lakes, semantic data integration, and AI for data management. Supervisor: Professor Renée J. Miller.
               </p>
-
             </li>
 
             <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">New york academy of art</h4>
-
-              <span>2006 — 2007</span>
-
+              <h4 class="h4 timeline-item-title">Arab Academy for Science, Technology and Maritime Transport (AASTMT)</h4>
+              <span>2020 — 2025</span>
               <p class="timeline-text">
-                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
-                omnis..
+                Bachelor of Science in Computer Engineering. Completed research and engineering projects in machine learning,
+                software development, embedded systems, and human-computer interaction.
               </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">High school of art and design</h4>
-
-              <span>2002 — 2004</span>
-
-              <p class="timeline-text">
-                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
-                magni dolores
-                eos.
-              </p>
-
             </li>
 
           </ol>
@@ -578,55 +356,61 @@
         <section class="timeline">
 
           <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
+            <div class="icon-box"><ion-icon name="briefcase-outline"></ion-icon></div>
             <h3 class="h3">Experience</h3>
           </div>
 
           <ol class="timeline-list">
 
             <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Creative director</h4>
-
-              <span>2015 — Present</span>
-
+              <h4 class="h4 timeline-item-title">Graduate Researcher</h4>
+              <span>2026 — Present</span>
               <p class="timeline-text">
-                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
-                molestias
-                exceptur.
+                Conducting research in data discovery and table version identification within large data lakes. Investigating
+                lineage analysis, semantic relationships between tables, and intelligent data management techniques.
               </p>
-
             </li>
 
             <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Art director</h4>
-
-              <span>2013 — 2015</span>
-
+              <h4 class="h4 timeline-item-title">Teaching Assistant</h4>
+              <span>2026 — Present</span>
               <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+                Supporting undergraduate Computer Science courses at the University of Waterloo through marking, office hours,
+                student support, and instructional activities.
               </p>
-
             </li>
 
             <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Web designer</h4>
-
-              <span>2010 — 2013</span>
-
+              <h4 class="h4 timeline-item-title">Visiting Research Scholar</h4>
+              <span>2025 — 2026</span>
               <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+                Evaluated LLM-powered semantic data processing systems including DocETL, Lotus, Palimpzest, and ELEET.
+                Performed benchmarking and comparative analysis of performance, latency, and cost across data processing workloads.
               </p>
+            </li>
 
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Data Center Infrastructure Engineer — National Bank of Egypt</h4>
+              <span>2024</span>
+              <p class="timeline-text">
+                Worked on infrastructure operations, monitoring, and maintenance within enterprise-scale banking environments.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Frontend Developer Intern — All For One Egypt</h4>
+              <span>2024</span>
+              <p class="timeline-text">
+                Developed modern web interfaces and reusable frontend components using Angular and JavaScript.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Embedded Systems Engineer Intern — Wakalex for Industry & Trade</h4>
+              <span>2024</span>
+              <p class="timeline-text">
+                Designed and optimized embedded solutions using Arduino and sensor-based automation systems.
+              </p>
             </li>
 
           </ol>
@@ -635,75 +419,22 @@
 
         <section class="skill">
 
-          <h3 class="h3 skills-title">My skills</h3>
+          <h3 class="h3 skills-title">My Skills</h3>
 
           <ul class="skills-list content-card">
 
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Web design</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Graphic design</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Branding</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">WordPress</h5>
-                <data value="50">50%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
-              </div>
-
-            </li>
+            <li class="skills-item"><div class="title-wrapper"><h5 class="h5">Database Systems</h5><data value="95">95%</data></div><div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 95%;"></div></div></li>
+            <li class="skills-item"><div class="title-wrapper"><h5 class="h5">Machine Learning & AI</h5><data value="90">90%</data></div><div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 90%;"></div></div></li>
+            <li class="skills-item"><div class="title-wrapper"><h5 class="h5">Python</h5><data value="95">95%</data></div><div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 95%;"></div></div></li>
+            <li class="skills-item"><div class="title-wrapper"><h5 class="h5">Java & C++</h5><data value="90">90%</data></div><div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 90%;"></div></div></li>
+            <li class="skills-item"><div class="title-wrapper"><h5 class="h5">Research & Scientific Writing</h5><data value="95">95%</data></div><div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 95%;"></div></div></li>
+            <li class="skills-item"><div class="title-wrapper"><h5 class="h5">Full-Stack Development</h5><data value="85">85%</data></div><div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 85%;"></div></div></li>
 
           </ul>
 
         </section>
 
       </article>
-
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
 
       <article class="portfolio" data-page="portfolio">
 
@@ -714,221 +445,51 @@
         <section class="projects">
 
           <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
+            <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+            <li class="filter-item"><button data-filter-btn>Research</button></li>
+            <li class="filter-item"><button data-filter-btn>Machine Learning</button></li>
+            <li class="filter-item"><button data-filter-btn>Web Development</button></li>
+            <li class="filter-item"><button data-filter-btn>Embedded Systems</button></li>
           </ul>
 
           <div class="filter-select-box">
-
             <button class="filter-select" data-select>
-
               <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
+              <div class="select-icon"><ion-icon name="chevron-down"></ion-icon></div>
             </button>
-
             <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web design</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
+              <li class="select-item"><button data-select-item>All</button></li>
+              <li class="select-item"><button data-select-item>Research</button></li>
+              <li class="select-item"><button data-select-item>Machine Learning</button></li>
+              <li class="select-item"><button data-select-item>Web Development</button></li>
+              <li class="select-item"><button data-select-item>Embedded Systems</button></li>
             </ul>
-
           </div>
 
           <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Finance</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
+            <li class="project-item active" data-filter-item data-category="research">
+              <a href="#"><figure class="project-img"><div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img src="./assets/images/project-1.jpg" alt="MAZE" loading="lazy"></figure><h3 class="project-title">MAZE: Table Version Discovery</h3><p class="project-category">Research</p></a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Orizon</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
+            <li class="project-item active" data-filter-item data-category="research">
+              <a href="#"><figure class="project-img"><div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img src="./assets/images/project-2.png" alt="LLM Semantic Processing" loading="lazy"></figure><h3 class="project-title">LLM-Powered Semantic Data Processing</h3><p class="project-category">Research</p></a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Fundo</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
+            <li class="project-item active" data-filter-item data-category="machine learning">
+              <a href="#"><figure class="project-img"><div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img src="./assets/images/project-3.jpg" alt="Brain Computer Interface" loading="lazy"></figure><h3 class="project-title">P300 Brain-Computer Interface</h3><p class="project-category">Machine Learning</p></a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Brawlhalla</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
+            <li class="project-item active" data-filter-item data-category="embedded systems">
+              <a href="#"><figure class="project-img"><div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img src="./assets/images/project-4.png" alt="Rescue Robot" loading="lazy"></figure><h3 class="project-title">Sound-Detecting Rescue Robot</h3><p class="project-category">Embedded Systems</p></a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">DSM.</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
+            <li class="project-item active" data-filter-item data-category="embedded systems">
+              <a href="#"><figure class="project-img"><div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img src="./assets/images/project-5.png" alt="COVID Monitoring" loading="lazy"></figure><h3 class="project-title">COVID-19 Smart Monitoring System</h3><p class="project-category">Embedded Systems</p></a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://mazen-portfolio-vert.vercel.app" target="_blank"><figure class="project-img"><div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img src="./assets/images/project-6.png" alt="Portfolio Website" loading="lazy"></figure><h3 class="project-title">Personal Portfolio Website</h3><p class="project-category">Web Development</p></a>
             </li>
 
           </ul>
@@ -937,18 +498,10 @@
 
       </article>
 
-
-
-
-
-      <!--
-        - #BLOG
-      -->
-
-      <article class="blog" data-page="blog">
+      <article class="blog" data-page="research">
 
         <header>
-          <h2 class="h2 article-title">Blog</h2>
+          <h2 class="h2 article-title">Research</h2>
         </header>
 
         <section class="blog-posts">
@@ -957,169 +510,34 @@
 
             <li class="blog-post-item">
               <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-                </figure>
-
+                <figure class="blog-banner-box"><img src="./assets/images/blog-1.jpg" alt="Table version identification" loading="lazy"></figure>
                 <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
-
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
-
+                  <div class="blog-meta"><p class="blog-category">Data Discovery</p><span class="dot"></span><time datetime="2026-01-01">2026</time></div>
+                  <h3 class="h3 blog-item-title">Table Version Identification in Data Lakes</h3>
+                  <p class="blog-text">Studying how to identify versions, lineage, and evolution patterns among related tables in large data collections.</p>
                 </div>
-
               </a>
             </li>
 
             <li class="blog-post-item">
               <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
-
+                <figure class="blog-banner-box"><img src="./assets/images/blog-2.jpg" alt="Semantic data processing" loading="lazy"></figure>
                 <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
-
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
-
+                  <div class="blog-meta"><p class="blog-category">LLM Systems</p><span class="dot"></span><time datetime="2025-01-01">2025</time></div>
+                  <h3 class="h3 blog-item-title">LLM-Powered Semantic Data Processing</h3>
+                  <p class="blog-text">Comparative evaluation of frameworks for using large language models in semantic data transformation and analysis.</p>
                 </div>
-
               </a>
             </li>
 
             <li class="blog-post-item">
               <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                </figure>
-
+                <figure class="blog-banner-box"><img src="./assets/images/blog-3.jpg" alt="Data lineage" loading="lazy"></figure>
                 <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
-
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
-
+                  <div class="blog-meta"><p class="blog-category">Data Management</p><span class="dot"></span><time datetime="2026-01-01">2026</time></div>
+                  <h3 class="h3 blog-item-title">Data Lineage and Provenance</h3>
+                  <p class="blog-text">Exploring methods for understanding how tables change, relate, and evolve across different versions and sources.</p>
                 </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
-
-                </div>
-
               </a>
             </li>
 
@@ -1128,14 +546,6 @@
         </section>
 
       </article>
-
-
-
-
-
-      <!--
-        - #CONTACT
-      -->
 
       <article class="contact" data-page="contact">
 
@@ -1146,7 +556,7 @@
         <section class="mapbox" data-mapbox>
           <figure>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              src="https://www.google.com/maps?q=Waterloo,%20Ontario,%20Canada&output=embed"
               width="400" height="300" loading="lazy"></iframe>
           </figure>
         </section>
@@ -1159,7 +569,6 @@
 
             <div class="input-wrapper">
               <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
               <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
             </div>
 
@@ -1172,6 +581,10 @@
 
           </form>
 
+          <p class="about-text" style="margin-top: 20px;">
+            Direct email: <a href="mailto:melsedfy@uwaterloo.ca">melsedfy@uwaterloo.ca</a>
+          </p>
+
         </section>
 
       </article>
@@ -1180,19 +593,7 @@
 
   </main>
 
-
-
-
-
-
-  <!--
-    - custom js link
-  -->
   <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
