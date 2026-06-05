@@ -533,10 +533,12 @@ main {
 
 .about-text a,
 .timeline-text a {
-  display: inline;
+  display: inline !important;
   color: var(--orange-yellow-crayola);
-  text-decoration: none;
-  border-bottom: 1px solid hsla(45, 100%, 72%, 0.45);
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: hsla(45, 100%, 72%, 0.55);
+  text-underline-offset: 4px;
   transition: var(--transition-1);
 }
 
@@ -545,7 +547,7 @@ main {
 .timeline-text a:hover,
 .timeline-text a:focus {
   color: var(--vegas-gold);
-  border-bottom-color: var(--vegas-gold);
+  text-decoration-color: var(--vegas-gold);
 }
 
 
